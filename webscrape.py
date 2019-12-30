@@ -1,19 +1,3 @@
-''' 
-Author: Nithin Sade (nsade@zendesk.com) Security Intern Summer 2019
-This project can be used to scrape ZED to get employee details and output them as a JSON file.
-When the program starts it will open a browser window, login with your zendesk creds and provide OKTA access within 120 seconds.
-***YOU CAN ADD ORGS TO URL.TXT***
-'''
-''' *********************  Importing libraries **********************
-1. Selenium (Webscraping and Webdriver python package)
-2. Unidecode for translating non ASCII Charecters
-3. Queue, Time, Json and Regex packages
-'''
-''' *************************************************METHODS********************************************************** '''
-
-
-
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
