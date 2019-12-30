@@ -1,0 +1,8 @@
+*.csv
+*.json
+.DS_Store
+/bin
+/include
+/lib
+/__pycache__
+pyvenv.cfg
